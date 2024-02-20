@@ -9,4 +9,4 @@ At the moment, it dowmnloads the [Embedded Movies dataset](https://huggingface.c
 1. From the root of the project on your machine, run ```dotnet run```.
 2. Enter your connection string when requested
 
-
+Once complete, you should see your data available inside your cluster.
