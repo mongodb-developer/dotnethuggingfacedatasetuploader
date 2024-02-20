@@ -8,6 +8,7 @@ At the moment, it dowmnloads the [Embedded Movies dataset](https://huggingface.c
 1. A MongoDB cluster deployed
 2. Your connection string
 3. DotNET SDK on your machine
+4. This repo downloaded to your machine
 
 ## Running the uploader
 
