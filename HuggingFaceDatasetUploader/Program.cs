@@ -39,9 +39,9 @@ async Task DownloadMoviesDataset()
     
     var response =
         await httpClient.GetAsync(
-            "https://huggingface.co/datasets/AIatMongoDB/embedded_movies/resolve/main/sample_mflix.embedded_movies.json?download=true");
+            "https://huggingface.co/datasets/AIatMongoDB/embedded_movies/resolve/main/sample_mflix.embedded_movies.json");
     string content = await response.Content.ReadAsStringAsync();
-    movies = JsonSerializer.Deserialize < List<Movie>>(content);
+    movies = JsonSerializer.Deserialize<List<Movie>>(content);
 }
 
 async Task UploadMoviesDataset()
